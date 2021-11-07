@@ -9,12 +9,12 @@
             <a class="navitem" href="index.html#shows">SHOWS</a>
             <a class="navitem" href="index.html#press">PRESS</a>
             <a class="navitem" href="index.html#contact">CONTACT</a>
-            <a href="https://www.facebook.com/deathfilered"><img src="img/facebook.png"></a>
-            <a href="https://www.instagram.com/deathfilered/"><img src="img/instagram.png"></a>
+            <a href="https://www.facebook.com/deathfilered" target="_blank"><img src="img/facebook.png"></a>
+            <a href="https://www.instagram.com/deathfilered/" target="_blank"><img src="img/instagram.png"></a>
         </div>
         <!-- Header image and call to action -->
-        <div>
-            <img class="logoimage" src="img/logo_white_trim.png">
+        <div class="banner">
+            <img class="logoimage" src="img/logo_white_transparent.png">
             <div class="cta">
                 <p>Join our mailing list</p>
                 <form>
@@ -28,10 +28,22 @@
             <div id="shows">
                 <h1 class="heading">Shows</h1>
                 <table>
+                    <!--
+                    Template for creating new show entries
+                    <tr>
+                        <td>date</td>
+                        <td>time</td>
+                        <td><var></var>enue</td>
+                        <td>city</td>
+                        <td><a href="ticketlink"><img style="margin-right: 4px" src="img/ticket.png">Tickets</a></td>
+                        <td><a href="fbeventlink"><img src="img/facebook.png">Event</a></td>
+                    </tr>
+                    -->
                     <tr>
                         <td>Nov. 19th, 2021</td>
                         <td>8:30pm</td>
                         <td>Acadia Bar</td>
+                        <td>Houston, TX</td>
                         <td><a href="google.com"><img style="margin-right: 4px" src="img/ticket.png">Tickets</a></td>
                         <td><a href="https://fb.me/e/XzM3Czh1"><img src="img/facebook.png">Event</a></td>
                     </tr>
@@ -50,13 +62,17 @@
             </div>
             <div id="contact">
                 <h1 class="heading">Contact</h1>
-                <form>
+                <form class="contact-form">
+                    <input type="text" placeholder="name">
+                    <br>
                     <input type="text" placeholder="email">
-                    <input type="textfield">
-                    <input type="submit" value="Submit">
+                    <br>
+                    <textarea placeholder="message"></textarea>
+                    <br>
+                    <input class="button" type="submit" value="Submit">
                 </form>
-                <a href="https://www.facebook.com/deathfilered"><img src="img/facebook.png"></a>
-                <a href="https://www.instagram.com/deathfilered/"><img src="img/instagram.png"></a>
+                <a href="https://www.facebook.com/deathfilered" target="_blank"><img src="img/facebook.png"></a>
+                <a href="https://www.instagram.com/deathfilered/" target="_blank"><img src="img/instagram.png"></a>
             </div>
         </div>
         <div class="footer">

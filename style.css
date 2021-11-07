@@ -22,7 +22,7 @@ a {
 .header .navitem {
     margin: 20px;
     color: white;
-    font-size: 32px;
+    font-size: 2rem;
     text-decoration: none;
 }
 
@@ -31,7 +31,17 @@ a {
 }
 
 .header img {
-    height: 26px;
+    height: 2rem;
+}
+
+.banner {
+    padding: 20px;
+    background-image: url('img/dfr_dark.png');
+}
+
+.cta p {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .logoimage {
@@ -57,11 +67,12 @@ a {
 }
 
 #shows td {
+    font-size: 1rem;
     padding: 10px;
 }
 
 #shows img {
-    height: 16px;
+    height: 1rem;
 }
 
 #press img {
@@ -74,5 +85,14 @@ a {
 }
 
 #contact img {
-    height: 26px;
+    height: 2rem;
+}
+
+#contact form input {
+    width: 90%;
+}
+
+#contact form textarea {
+    width: 90%;
+    height: 10rem;
 }
