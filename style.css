@@ -24,10 +24,11 @@ a {
     padding-bottom: 5px;
     background-color: black;
     border-bottom: solid 4px #990000;
+    z-index: 100;
 }
 
 .header .navitem {
-    margin: 20px;
+    margin: 10px;
     color: white;
     font-size: 2em;
     font-weight: bold;
@@ -40,10 +41,16 @@ a {
 
 .header img {
     height: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header div {
+    display: inline-block;
 }
 
 .banner {
-    padding-top: 100px;
+    padding-top: 150px;
     background-image: url('img/dfr_dark.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +90,6 @@ a {
 
 .content {
     margin: auto;
-    width: 100%;
     max-width: 800px;
     padding: 10px;
 }
@@ -91,6 +97,22 @@ a {
 .heading {
     font-family: Serif;
     border-bottom: solid 2px #990000;
+}
+
+.calendar-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.calendar-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 #shows td {
@@ -103,8 +125,9 @@ a {
 }
 
 #press img {
-    width: 90%;
-    margin: 10px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #press .two-column img {
@@ -116,16 +139,15 @@ a {
 }
 
 #contact form input {
-    width: 90%;
+    width: 95%;
 }
 
 #contact form textarea {
-    width: 90%;
+    width: 95%;
     height: 15em;
 }
 
 #contact form button {
-    width: 90%;
+    width: 95%;
     font-size: 1.5em;
-    min-width: 10em;
 }
