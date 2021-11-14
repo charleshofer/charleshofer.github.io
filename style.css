@@ -43,7 +43,7 @@ a {
 }
 
 .banner {
-    padding: 100px;
+    padding-top: 100px;
     background-image: url('img/dfr_dark.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,6 +73,7 @@ a {
 }
 
 .button {
+    margin-top: 5px;
     color: white;
     background-color: black;
     border: solid 3px #990000;
@@ -123,7 +124,7 @@ a {
 }
 
 #contact form button {
-    width: 40%;
+    width: 90%;
+    font-size: 1.5em;
     min-width: 10em;
-    margin-top: 5px;
 }
