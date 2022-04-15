@@ -157,16 +157,18 @@ a:hover {
     font-size: 1.5em;
 }
 
+#contact img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 2em;
+}
+
 .footer-border {
     padding-top: 50px;
     background-image: url('img/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.footer img {
-    height: 2em;
 }
 
 .linktree-img {
