@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 .header {
     position: fixed;
     top: 0px;
@@ -51,7 +56,7 @@ a {
 .banner {
     padding-top: 100px;
     padding-bottom: 20px;
-    background-image: url('img/cropped-dimebag-gray.jpg');
+    background-image: url('img/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -92,8 +97,11 @@ a {
 }
 
 .heading {
-    font-family: Serif;
+    margin-top: 30px;
+    padding-top: 5px;
+    font-size: 2.5em;
     border-bottom: solid 2px #ee0000;
+    border-top: solid 2px #ee0000;
 }
 
 .calendar-container {
@@ -131,8 +139,8 @@ a {
     width: 45%;
 }
 
-#contact img {
-    height: 2em;
+#press .three-column img {
+    width: 30%;
 }
 
 #contact form input {
@@ -147,6 +155,18 @@ a {
 #contact form button {
     width: 95%;
     font-size: 1.5em;
+}
+
+.footer-border {
+    padding-top: 50px;
+    background-image: url('img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer img {
+    height: 2em;
 }
 
 .linktree-img {
