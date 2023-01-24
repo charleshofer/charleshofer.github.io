@@ -39,6 +39,12 @@ a:hover {
     text-decoration: none;
 }
 
+@media (max-width:800px) {
+  .header .navitem {
+    display: block;
+  }
+}
+
 .header .navitem:hover {
     color: grey;
 }
@@ -129,17 +135,17 @@ a:hover {
     height: 1em;
 }
 
-#press img {
+#bio img {
     width: 95%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#press .two-column img {
+#bio .two-column img {
     width: 45%;
 }
 
-#press .three-column img {
+#bio .three-column img {
     width: 30%;
 }
 
